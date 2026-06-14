@@ -34,10 +34,3 @@ The main goal of this project is to demonstrate:
 2. Home Screen (API Data)  
 3. Local Storage Screen (Saved Data)
 
-## Getting Started
-
-```bash
-git clone <your-repo-url>
-cd state_managemtn_app
-flutter pub get
-flutter run
