@@ -1,17 +1,43 @@
-# state_managemtn_app
+# State Management App (Riverpod Demo)
 
-A new Flutter project.
+This is a simple Flutter project created to demonstrate **Riverpod state management structure** in a clean and scalable way.
+
+The project is intentionally minimal and focuses on architecture rather than features.
+
+## Features
+
+- Splash Screen
+- API Integration (simple data fetching)
+- Local Database (basic storage example)
+- Riverpod state management structure
+- Clean folder organization
+
+## Purpose of this Project
+
+The main goal of this project is to demonstrate:
+
+- How to structure a Flutter app using Riverpod
+- How to separate UI, state, and data layers
+- How to manage API calls using providers
+- How to use a local database in a simple flow
+
+## Tech Stack
+
+- Flutter
+- Riverpod
+- HTTP (API calls)
+- Local Database (e.g. SQFlite / Hive)
+
+## Screens
+
+1. Splash Screen  
+2. Home Screen (API Data)  
+3. Local Storage Screen (Saved Data)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# assignment-riverpod
+```bash
+git clone <your-repo-url>
+cd state_managemtn_app
+flutter pub get
+flutter run
